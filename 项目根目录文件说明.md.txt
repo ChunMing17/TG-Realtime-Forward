@@ -1,0 +1,40 @@
+# 📋 TG Realtime Forward 项目文件清单
+
+
+## 📁 完整文件列表
+
+### 核心文件
+- `TG_Realtime_Forward.py` - **主程序文件** (实时转发核心功能)
+- `config.py` - **配置示例文件** (参考配置)
+
+### 启动脚本
+- `start_forward.sh` - **Linux/Mac启动脚本**
+- `start_forward.bat` - **Windows启动脚本**
+
+### 管理工具
+- `manage_service.sh` - **服务管理脚本** (启动/停止/监控)
+- `check_environment.py` - **环境检查脚本**
+- `test_config.py` - **配置测试脚本**
+
+### 文档文件
+- `README.md` - **完整使用文档**
+- `QUICK_START.md` - **快速部署指南**
+- `项目根目录文件说明` - **项目根目录文件说明**
+
+
+## 📋 使用建议
+
+### 首次部署必需文件
+1. `TG_Realtime_Forward.py`
+2. `config.py`
+3. `start_forward.sh` 或 `start_forward.bat`
+
+### 推荐使用的工具
+1. `check_environment.py` - 部署前检查
+2. `test_config.py` - 配置验证
+3. `manage_service.sh` - 服务管理
+
+### 完整部署集
+```
+所有文件都是推荐保留的，便于管理和维护
+```
